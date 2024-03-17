@@ -1,7 +1,6 @@
 {
   "name": "zefroxlabs",
-  "version": "1.1.5",
-  "private": true,
+  "version": "1.1.8",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,19 +8,36 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "0xadinda": "^1.1.5",
+    "azkathea": "^1.1.6",
+    "ccc-farming": "^1.1.4",
+    "chicken-farm": "^1.1.5",
+    "next": "14.1.3",
+    "nezodawn-cious": "^1.1.4",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.1.3"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.3",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.3"
-  }
+    "typescript": "^5"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app](https://github.com/bmbnk1301/zefroxlabs).",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmbnk1301/zefroxlabs"
+  },
+  "author": "kkbmbnk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmbnk1301/zefroxlabs/issues"
+  },
+  "homepage": "https://github.com/bmbnk1301/zefroxlabs#readme"
 }
